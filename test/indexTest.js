@@ -9,7 +9,7 @@ describe( "index.js", () => {
     window.document.dispatchEvent( event );
 
     expect( document.querySelector( 'p' )
-        .textContent )
+    .textContent )
       .to.equal( "This is really cool!" );
   } )
 
